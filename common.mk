@@ -19,9 +19,6 @@ $(call inherit-product, $(COMMON_FOLDER)/common.mk)
 
 DEVICE_PACKAGE_OVERLAYS += $(OTTER_COMMON_FOLDER)/overlay/aosp
 
-PRODUCT_AAPT_CONFIG := normal mdpi hdpi xhdpi
-PRODUCT_AAPT_PREF_CONFIG := mdpi
-
 # Wifi
 PRODUCT_PACKAGES += \
     calibrator \
